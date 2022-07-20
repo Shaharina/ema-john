@@ -5,6 +5,7 @@
     justify-content: space-between;
     padding-left: 140px;
     padding-right: 140px;
+    align-items: center;
 }
 .header a {
     color: #fff;
