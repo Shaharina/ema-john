@@ -2,6 +2,10 @@
     display: grid;
     grid-template-columns: 4fr 1fr;
 }
+.cart-container button {
+    color: blue;
+    background: red;
+}
 .cart-container {
     background-color: #ffe0b3;
     padding-left: 20px;

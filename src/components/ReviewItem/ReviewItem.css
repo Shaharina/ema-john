@@ -18,3 +18,25 @@
     display: flex;
     justify-content: space-between;
 }
+.review-item-details-container p {
+    margin: 0;
+}
+.review-item .delete-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.review-item .delete-button {
+    background: rgba(235, 87, 87, 0.3);
+    border: 0;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.delete-icon {
+    color: rgba(235, 87, 87, 1);
+    font-size: 27px;
+}
