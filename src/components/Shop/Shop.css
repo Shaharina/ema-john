@@ -5,6 +5,7 @@
 .cart-container button {
     color: blue;
     background: red;
+    padding: 20px;
 }
 .cart-container {
     background-color: #ffe0b3;
