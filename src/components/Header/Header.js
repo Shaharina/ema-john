@@ -6,6 +6,7 @@ import auth from '../../firebase.init';
 import logo from '../../images/Logo.svg';
 
 import './Header.css';
+
 const Header = () => {
     const [user] = useAuthState(auth);
 
@@ -24,8 +25,8 @@ const Header = () => {
                 <Link to='/orders'>Orders</Link>
                 <Link to='/inventory'>Inventory</Link>
                 <Link to='/about'>About</Link>
-                <Link to='/login'>Login</Link>
-                {user ? <button onclick={handleSignOut}> Sign out</button> : <Link to='/about'>About</Link>}
+
+                {user ? <button onclick={handleSignOut}> Sign out</button> : <Link to='/login'>Login</Link>}
             </div>
         </nav>
     );
